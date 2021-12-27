@@ -14,4 +14,4 @@ def getAllMusicsTimeInSeconds():
     return result
 
 if __name__ == '__main__':
-    print(getAllMusicsTimeInSeconds()[:5])
+    print(getAllMusicsTimeInSeconds())
