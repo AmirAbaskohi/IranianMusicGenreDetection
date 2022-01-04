@@ -55,7 +55,6 @@ def getReportOfDataSet():
 
 def splitMusics(lengthInMilliseconds):
     result = []
-    g = 0
     for subdir, dirs, files in os.walk(DATA_PATH):
         for file in tqdm(files):
             splittedFile = file.split('.')
